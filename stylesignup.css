@@ -1,0 +1,20 @@
+    body {
+      
+      margin: 0;
+      padding: 0;
+    }
+
+    .card-flex {
+      display: flex;
+      min-height: 80vh; /* biar full tinggi layar */
+    }
+
+    .card-flex > div {
+      flex: 1; /* otomatis bagi rata */
+      padding: 10px;      
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;      
+    }    
