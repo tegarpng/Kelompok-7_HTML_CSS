@@ -1,0 +1,140 @@
+/* Reset & Global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+  background: #fff;
+  color: #222;
+  line-height: 1.6;
+}
+/* Navbar */
+header {
+  background-color:#fff;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  border-bottom: 1px solid #eee;
+}
+.logo {
+  font-weight: bold;
+  font-size: 25px;
+  font-family: Brush Script MT;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+.btn-daftar {
+  background: #000;
+  color: #fff;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 3px;
+}
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+}
+.hero-left {
+  flex: 1;
+  padding-right: 40px;
+}
+.hero-left h1 {
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.hero-left p {
+  margin-bottom: 20px;
+  color: #555;
+}
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+}
+.btn-black {
+  background: #000;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+.btn-outline {
+  border: 1px solid #000;
+  color: #000;
+  padding: 10px 20px;
+  text-decoration: none;
+  background: #fff;
+}
+.hero-right {
+  flex: 1;
+}
+.img-placeholder {
+  background: #ddd;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #777;
+  font-size: 16px;
+  width: 100%;
+}
+/* Sejarah Section */
+.sejarah {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 60px;
+  gap: 50px;
+}
+.sejarah-left h4 {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+.sejarah-left h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+.sejarah-right p {
+  margin-bottom: 20px;
+  color: #555;
+}
+.sejarah-buttons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.btn-link {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+}
+/* Big Image */
+.big-image {
+  margin: 0 60px 60px;
+}
+.big-image .img-placeholder {
+  height: 380px;
+  width : 100%;
+  background: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #777;
+  font-size: 16px;
+}
